@@ -9,5 +9,6 @@ DemoConfigClient Repo
     http://localhost:8080/actuator/refresh
     
 3. Following properties are added to enable the refresh endpoint. 
+      
       management.security.enabled=false
       management.endpoints.web.exposure.include=*
